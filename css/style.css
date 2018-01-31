@@ -14,11 +14,11 @@ h1 {
 }
 li {
   list-style: none;
-  border-left: 6px solid #1eff00;
+  border-left: 6px solid #108b00;
   padding-left: .5%;
 }
 #ligne {
-  border-right: 1px solid #1eff00;
+  border-right: 1px solid #108b00;
   margin: 0;
 }
 nav {
@@ -50,7 +50,7 @@ h3 {
   text-align: center;
   font-weight: bold;
   padding: 2%;
-  border-bottom: 3px solid #1eff00;
+  border-bottom: 3px solid #108b00;
 }
 p {
   padding: 2% 7%;
@@ -88,15 +88,22 @@ a:after {
   transition: .3s;
   content: '';
   width: 0;
-  bottom: 0;
+  bottom: 2px;
   height: 3px;
-  background: #1eff00;
-  height: 89%;
-  left: -10%;
+  background: #108b00;
+  height: 86%;
+  left: -11%;
   -webkit-transform: skewX(0deg);
   transform: skewX(0deg);
   z-index: -1;
 }
 a:hover {
   cursor: pointer;
+}
+a:hover:after {
+  width: 100%;
+  left: 0;
+  color: #5bcaff;
+  left: -11%;
+  width: 120%;
 }
