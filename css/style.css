@@ -17,6 +17,10 @@ li {
   border-left: 6px solid rgba(30, 255, 0, 0.801);
   padding-left: .5%;
 }
+#ligne {
+  border-right: 1px solid rgba(30, 255, 0, 0.801);
+  margin: 0;
+}
 nav {
   margin-top: 2%;
   display: flex;
