@@ -14,11 +14,11 @@ h1 {
 }
 li {
   list-style: none;
-  border-left: 6px solid rgba(30, 255, 0, 0.801);
+  border-left: 6px solid #1eff00;
   padding-left: .5%;
 }
 #ligne {
-  border-right: 1px solid rgba(30, 255, 0, 0.801);
+  border-right: 1px solid #1eff00;
   margin: 0;
 }
 nav {
@@ -50,7 +50,7 @@ h3 {
   text-align: center;
   font-weight: bold;
   padding: 2%;
-  border-bottom: 3px solid rgba(30, 255, 0, 0.801);
+  border-bottom: 3px solid #1eff00;
 }
 p {
   padding: 2% 7%;
@@ -90,8 +90,8 @@ a:after {
   width: 0;
   bottom: 0;
   height: 3px;
-  background: rgba(30, 255, 0, 0.801);
-  height: 100%;
+  background: #1eff00;
+  height: 89%;
   left: -10%;
   -webkit-transform: skewX(0deg);
   transform: skewX(0deg);
@@ -99,11 +99,4 @@ a:after {
 }
 a:hover {
   cursor: pointer;
-}
-a:hover:after {
-  width: 100%;
-  left: 0;
-  color: #5bcaff;
-  left: -10%;
-  width: 120%;
 }
